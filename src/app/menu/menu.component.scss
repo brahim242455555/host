@@ -1,0 +1,28 @@
+nav {
+  background: #007bff;
+  padding: 10px;
+
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+
+    &:hover, &.active {
+      background: #0056b3;
+    }
+  }
+}
